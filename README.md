@@ -1,7 +1,10 @@
 # PBX-Asterisk-Python-Mysql
 
-Este desarrollo consiste en registrar las llamadas que recibe una centralita en una base de datos (Mysql) con el lenguaje de programación en Python.
-En el lenguaje Asterisk se utiliza la funcion AGI para interactuar con el script de Python. 
+Este desarrollo tiene como objetivo verificar si las llamadas entrantes a una centralita están registradas en una base de datos MySQL, utilizando el lenguaje de programación Python. En caso de que el número del llamante esté identificado en la base de datos, se ejecutarán determinadas acciones predefinidas
+En el lenguaje Asterisk se utiliza la funcion AGI.
+
+La función AGI (Asterisk Gateway Interface) en Asterisk permite ejecutar scripts externos para controlar el flujo de llamadas de forma dinámica. Es como una “puerta de enlace” entre Asterisk y otros lenguajes de programación como Python, PHP o Perl.
+
 Este es el contenido del fichero de configuración
 [PBX] 
 ;RUTINA DE LLAMADA 
